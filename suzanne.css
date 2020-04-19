@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #FF8D99;
+    color: white;
+}
+
+h1 {
+    position: relative;
+    font-size: 96px;
+    left: 50px;
+    font-family: 'Quicksand';
+    font-weight: 700;
+    color: #FCEB2C;
+}
+
+h2 {
+    position: relative;
+    left: 50px;
+    top: -75px;
+    font-family: 'Quicksand';
+    font-weight: 500;
+}
+
+h2:hover {
+    animation: swing 5s;
+}
+
+h3 {
+    position: relative;
+    left: 75px;
+    font-size: 72px;
+}
+
+p {
+    position: relative;
+    top: -50px;
+    left: 75px;
+    font-size: 24px;
+}
+
+.button {
+    position: relative;
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+    left: 75px;
+    font-size: 30px;
+    border: none;
+    border-radius: 16px;
+    background-color: #669866;
+    color: white;
+    font-family: Quicksand;
+}
+
+.button:hover {
+    border:white;
+    border-style: solid;
+}
+
+.topnav a {
+    margin-top: -25px;
+    float: right;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 0px 12px;
+    font-size: 24px;
+    font-weight: 500;
+    border: white;
+    border-style: solid;
+    background-color: #FF8D99;
+    border-radius: 16px;
+}
+
+.topnav a:hover {
+    margin-top: -25px;
+    animation-name: highlight;
+    animation-duration: 0.5s;
+    background-color: #FCEB2C;
+    color:#FF8D99;
+    border: white;
+    border-style: solid;
+    border-radius: 16px;
+}
+
+#lemons {
+    position: absolute;
+    left: 400px;
+    top: -250px;
+    z-index: -1;
+}
+
+@keyframes highlight {
+    from {background-color: #FF8D99; color: white;}
+    to {background-color: #FCEB2C; color: #FF8D99;}
+}
