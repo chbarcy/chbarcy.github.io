@@ -6,36 +6,36 @@ body {
     color: white;
 }
 
-h1 {
+.title {
     position: relative;
     font-size: 96px;
-    left: 50px;
+    left: 100px;
     font-family: 'Quicksand';
     font-weight: 700;
     color: #FCEB2C;
 }
 
-h2 {
+.subtitle {
     position: relative;
-    left: 50px;
+    left: 100px;
     top: -75px;
     font-family: 'Quicksand';
     font-weight: 500;
 }
 
-h2:hover {
+.subtitle:hover {
     animation: swing 5s;
 }
 
-h3 {
+.headline {
     position: relative;
     left: 75px;
     font-size: 72px;
 }
 
-p {
+.maininfo {
     position: relative;
-    top: -50px;
+    top: -75px;
     left: 75px;
     font-size: 24px;
 }
@@ -60,6 +60,7 @@ p {
 
 .topnav a {
     margin-top: -25px;
+    margin: 6px;
     float: right;
     color: white;
     text-decoration: none;
@@ -94,4 +95,9 @@ p {
 @keyframes highlight {
     from {background-color: #FF8D99; color: white;}
     to {background-color: #FCEB2C; color: #FF8D99;}
+}
+
+.powr-microblog {
+    color: white;
+    background-color: #FF8D99;
 }
