@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: #D2554D;
+}
+
+.buttonlink {
+  position: relative;
+    padding: 5px 20px 5px 20px;
+    text-decoration: none;
+    font-size: 30px;
+    border: none;
+    border-radius: 16px;
+    background-color: #218CB7;
+    color: white;
+    font-family: Quicksand;
+}
+
+.buttonlink:hover {
+  position: relative;
+    padding: 5px 20px 5px 20px;
+    text-decoration: none;
+    font-size: 30px;
+    border-style: solid;
+    border-radius: 16px;
+    border-color: #D2554D;
+    background-color: #218CB7;
+    color: white;
+    font-family: Quicksand;
+}
+
+img {
+  position: relative;
+  width: 90%;
+  border: none;
+  border-radius: 30px;
+}
+
+.section {
+  position: absolute;
+  top: 250px;
+  background: #F7F7FF;
+  padding: 14px 14px;
+  line-height: 2;
+  border-style: none;
+  border-radius: 20px;
+  width: 45%;
+  text-align: center;
+}
+
+#colorclickersec {
+  left: 1%;
+}
+
+#suzannesec {
+  right: 1%;
+}
+
+p1 {
+  display: inline-block;
+}
+  
+  .header {
+    font-size: 50px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    background: #F7F7FF;
+    color: #D2554D;
+    border-style: none;
+    border-radius: 20px;
+  }
+
+  .navbar {
+    overflow: hidden;
+    background-color: #218CB7;
+    position: absolute;
+    top: 0;
+    width: 96%;
+    border-style: none;
+    border-radius: 20px;
+    padding: 10px 16px;
+  }
+
+  .navbar a {
+    float: left;
+    font-size: 24px;
+    font-family: 'Quicksand', sans-serif;
+    float: left;
+    display: block;
+    color: #D2554D;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 16px;
+    background: #F7F7FF;
+    border-style: none;
+    border-color: #218CB7;
+    border-radius: 16px;
+  }
+
+#navbar3 {
+  float: right;
+  cursor: pointer;
+}
+
+  .navbar a:hover {
+    float: left;
+    font-size: 24px;
+    font-family: 'Quicksand', sans-serif;
+    float: left;
+    display: block;
+    color: #D2554D;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 16px;
+    background: #F7F7FF;
+    border-style: solid;
+    border-radius: 16px;
+    border-color: #D2554D;
+  }
