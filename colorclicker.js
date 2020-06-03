@@ -41,7 +41,7 @@ function update()
 
 function addOneToClicks()
 {
-    clicks += 100;
+    clicks += 1;
     update();
 }
 
