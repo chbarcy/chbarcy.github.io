@@ -40,6 +40,7 @@ img {
 
 .section {
   position: absolute;
+  font-family: Quicksand;
   top: 250px;
   background: #F7F7FF;
   padding: 14px 14px;
