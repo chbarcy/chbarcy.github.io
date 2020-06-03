@@ -23,10 +23,6 @@ body {
     font-weight: 500;
 }
 
-.subtitle:hover {
-    animation: swing 5s;
-}
-
 .headline {
     position: relative;
     left: 75px;
@@ -74,6 +70,11 @@ body {
     border-radius: 16px;
 }
 
+@keyframes highlight {
+    from {background-color: #FF8D99; color: white;}
+    to {background-color: #FCEB2C; color: #FF8D99;}
+}
+
 .topnav a:hover {
     margin-top: -25px;
     animation-name: highlight;
@@ -90,14 +91,4 @@ body {
     left: 400px;
     top: -250px;
     z-index: -1;
-}
-
-@keyframes highlight {
-    from {background-color: #FF8D99; color: white;}
-    to {background-color: #FCEB2C; color: #FF8D99;}
-}
-
-.powr-microblog {
-    color: white;
-    background-color: #FF8D99;
 }

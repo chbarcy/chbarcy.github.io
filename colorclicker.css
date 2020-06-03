@@ -1,7 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 
 body {
+    position: relative;
+    top: 250px;
+    text-align: center;
     background-color: palevioletred;
     font-family: 'Quicksand';
     transition: background-color 1s;
+}
+
+input {
+    position: relative;
+    left: 50px;
+}
+
+#clear {
+    position: absolute;
+    top: -250px;
 }

@@ -41,7 +41,7 @@ function update()
 
 function addOneToClicks()
 {
-    clicks += 1;
+    clicks += 100;
     update();
 }
 
@@ -58,8 +58,11 @@ function buyClicker()
 
 function addAutoClicks()
 {
-    clicks = clicks + 1;
-    update();
+    if (isDraining == false)
+    {
+        clicks = clicks + 1;
+        update();
+    }
 }
 
 function colorize()
@@ -212,7 +215,7 @@ function drainClicks()
 
 function incPrestige()
 {
-    if (confirm("Test?"))
+    if (confirm("Are you sure you want to prestige? You will lose all your current clickers and clicks, and progress to a harder difficulty."))
     {
         isDraining = true;
         document.getElementById("prestigeButton").style.visibility = "hidden"
@@ -224,10 +227,13 @@ function incPrestige()
 
 function clearData()
 {
-    localStorage.clear();
-    clicks = 0;
-    clickers = 0;
-    clickerPrice = 20;
-    prestige = 0;
-    window.location.reload();
+    if (confirm("Are you sure you want to clear ALL data? You cannot undo this action."))
+    {
+        localStorage.clear();
+        clicks = 0;
+        clickers = 0;
+        clickerPrice = 20;
+        prestige = 0;
+        window.location.reload();
+    }
 }
